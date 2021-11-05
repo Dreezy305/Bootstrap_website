@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-website",
+  "version": "1.0.0",
+  "description": "bootsrap and sass powered website ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "idris",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1"
+  }
+}

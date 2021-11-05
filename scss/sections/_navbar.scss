@@ -1,0 +1,32 @@
+@use "../custom" as *;
+@use '../components/mixins' as *;
+
+.menu {
+  @include gradient;
+  position: fixed;
+
+  a {
+    @include media-breakpoint-down(sm) {
+      display: inline;
+    }
+    color: $white !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.btn-pill {
+  margin-left: 20px;
+}
+
+.btn-text {
+  position: absolute;
+  left: 3%;
+  margin-left: 20px;
+  top: 10%;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
